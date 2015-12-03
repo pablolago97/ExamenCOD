@@ -39,9 +39,9 @@ package com.toy.anagrams.lib;
  */
 final class StaticWordLibrary extends WordLibrary {
 // Lista de palabras
-    //Palabras añadidas (1)
+    //Palabras añadidas (0)
     private static final String[] WORD_LIST = {
-        "whale"
+        
         "abstraction",
         "ambiguous",
         "arithmetic",
@@ -88,9 +88,9 @@ final class StaticWordLibrary extends WordLibrary {
         "unsigned",
         "traditional"};
 //Lista de palabras 'revueltas'
-//Palabras añadidas (1)
+//Palabras añadidas (0)
     private static final String[] SCRAMBLED_WORD_LIST = {
-        "haelw"
+        
         "batsartcoin",
         "maibuguos",
         "ratimhteci",
