@@ -38,7 +38,7 @@ package com.toy.anagrams.lib;
  * Implementation of the logic for the Anagram Game application.
  */
 final class StaticWordLibrary extends WordLibrary {
-
+// Lista de palabras
     private static final String[] WORD_LIST = {
         "abstraction",
         "ambiguous",
@@ -85,7 +85,7 @@ final class StaticWordLibrary extends WordLibrary {
         "vertex",
         "unsigned",
         "traditional"};
-
+//Lista de palabras 'revueltas'
     private static final String[] SCRAMBLED_WORD_LIST = {
         "batsartcoin",
         "maibuguos",
@@ -134,6 +134,7 @@ final class StaticWordLibrary extends WordLibrary {
         "rtdatioialn"
     };
     
+    
     final static WordLibrary DEFAULT = new StaticWordLibrary();
 
     /**
@@ -147,6 +148,8 @@ final class StaticWordLibrary extends WordLibrary {
      * @param idx index of required word
      * @return word at that index in its natural form
      */
+    
+    //Getters
     public String getWord(int idx) {
         return WORD_LIST[idx];
     }
